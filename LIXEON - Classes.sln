@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Complex Domain", "Complex Domain", "{E4E59BED-B3D9-4F5A-B599-033BB33EF076}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{9DD638C4-81C2-4978-A897-4B27067F47C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cadastro", "Cadastro", "{53A6E62F-9CEA-433C-A03C-FB142F582F75}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{1C9EE882-0666-4E31-AAAD-D3D0F7D9778A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{7A7249DA-1AF8-4713-B14D-89DB59E58579}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{BFBEB841-A265-4DD9-B715-7EDEFD38EFF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{1D67B9A1-0117-4956-9D63-5A2E6081EC1B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{305406FE-3AD6-4A2C-ACE2-D3C14B6919F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{706A93E3-C66C-4EDA-BE7E-4BA6EF80436B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lixeon.Classes.Core.Domain", "source\Complex Domain\Core\Lixeon.Classes.Core.Domain\Lixeon.Classes.Core.Domain.csproj", "{617B2989-7D67-4B4E-9EB8-6CE159094230}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lixeon.Classes.Cadastro.Domain", "source\Complex Domain\Cadastro\Lixeon.Classes.Cadastro.Domain\Lixeon.Classes.Cadastro.Domain.csproj", "{2C129CBE-AB53-4E22-AF52-414DDE4AE825}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lixeon.Classes.Cadastro.Application", "source\Complex Domain\Cadastro\Lixeon.Classes.Cadastro.Application\Lixeon.Classes.Cadastro.Application.csproj", "{E3CAD3C6-CB9F-47A9-901B-A45E967C7113}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lixeon.Classes.Core.Data", "source\Complex Domain\Core\Lixeon.Classes.Core.Data\Lixeon.Classes.Core.Data.csproj", "{335EC3E1-B854-40B9-8829-6FAB4D080519}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{617B2989-7D67-4B4E-9EB8-6CE159094230}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{617B2989-7D67-4B4E-9EB8-6CE159094230}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{617B2989-7D67-4B4E-9EB8-6CE159094230}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{617B2989-7D67-4B4E-9EB8-6CE159094230}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C129CBE-AB53-4E22-AF52-414DDE4AE825}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C129CBE-AB53-4E22-AF52-414DDE4AE825}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C129CBE-AB53-4E22-AF52-414DDE4AE825}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C129CBE-AB53-4E22-AF52-414DDE4AE825}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3CAD3C6-CB9F-47A9-901B-A45E967C7113}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3CAD3C6-CB9F-47A9-901B-A45E967C7113}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3CAD3C6-CB9F-47A9-901B-A45E967C7113}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3CAD3C6-CB9F-47A9-901B-A45E967C7113}.Release|Any CPU.Build.0 = Release|Any CPU
+		{335EC3E1-B854-40B9-8829-6FAB4D080519}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{335EC3E1-B854-40B9-8829-6FAB4D080519}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{335EC3E1-B854-40B9-8829-6FAB4D080519}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{335EC3E1-B854-40B9-8829-6FAB4D080519}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{53A6E62F-9CEA-433C-A03C-FB142F582F75} = {E4E59BED-B3D9-4F5A-B599-033BB33EF076}
+		{1C9EE882-0666-4E31-AAAD-D3D0F7D9778A} = {53A6E62F-9CEA-433C-A03C-FB142F582F75}
+		{7A7249DA-1AF8-4713-B14D-89DB59E58579} = {53A6E62F-9CEA-433C-A03C-FB142F582F75}
+		{BFBEB841-A265-4DD9-B715-7EDEFD38EFF5} = {53A6E62F-9CEA-433C-A03C-FB142F582F75}
+		{1D67B9A1-0117-4956-9D63-5A2E6081EC1B} = {53A6E62F-9CEA-433C-A03C-FB142F582F75}
+		{305406FE-3AD6-4A2C-ACE2-D3C14B6919F7} = {53A6E62F-9CEA-433C-A03C-FB142F582F75}
+		{706A93E3-C66C-4EDA-BE7E-4BA6EF80436B} = {E4E59BED-B3D9-4F5A-B599-033BB33EF076}
+		{617B2989-7D67-4B4E-9EB8-6CE159094230} = {706A93E3-C66C-4EDA-BE7E-4BA6EF80436B}
+		{2C129CBE-AB53-4E22-AF52-414DDE4AE825} = {BFBEB841-A265-4DD9-B715-7EDEFD38EFF5}
+		{E3CAD3C6-CB9F-47A9-901B-A45E967C7113} = {1C9EE882-0666-4E31-AAAD-D3D0F7D9778A}
+		{335EC3E1-B854-40B9-8829-6FAB4D080519} = {706A93E3-C66C-4EDA-BE7E-4BA6EF80436B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F573984-0248-4B33-B6DE-B92666ADA128}
+	EndGlobalSection
+EndGlobal

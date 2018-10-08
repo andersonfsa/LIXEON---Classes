@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\Lixeon.Classes.Core.Domain\Lixeon.Classes.Core.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Alunos\Specifications\" />
+    <Folder Include="Alunos\Validations\" />
+    <Folder Include="Secretaria\Interfaces\" />
+  </ItemGroup>
+
+</Project>
